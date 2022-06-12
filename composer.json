@@ -1,0 +1,21 @@
+{
+    "name": "zarei-dev/wp-better-debug",
+    "description": "Better Debug for WordPress",
+    "keywords": ["wordpress", "debug", "log", "error", "warning", "notice"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Zarei",
+            "email": "mohammad.zarei1380@gmail.com",
+            "homepage": "https://zareidev.ir/"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BetterDebug\\": "src/"
+        }
+    }
+}
